@@ -13,24 +13,81 @@
     height: 20px;
 }
 
+/* pac-dot config */
 .pacdot{
     background-color: white;
-    border: 6px solid ;
+    border: 6px solid black;
     border-radius: 20px;
     box-sizing: border-box;
 }
 
+/* walls config */
 .wall{
     background-color: blue;
 }
 
+
+/* power-pellet config */
 .power-pellet{
     background-color: green;
     border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
+
+/* ghosts creation */
+
+.blinky{
+    border: none;
+    background-color: black;
+    background-image: url("images/blinky.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pinky{
+    border: none;
+    background-color: black;
+    background-image: url("images/pinky.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inky{
+    border: none;
+    background-color: black;
+    background-image: url("images/inky.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clyde{
+    border: none;
+    background-color: black;
+    background-image: url("images/clyde.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* pac-man creation */
 .pac-man{
+    border: none;
+    background-color: black;
     background-image: url("images/pacman.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scared-ghost{
+    border: none;
+    background-color: black;
+    background-image: url("images/scared.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
